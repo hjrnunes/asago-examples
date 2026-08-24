@@ -3,12 +3,15 @@ name = "asago-examples"
 version = "0.1.0"
 requires-python = ">=3.14"
 dependencies = [
-    "jupyterlab>=4.6.1"
+    "jupyterlab>=4.6.2"
 ]
 
 [project.optional-dependencies]
 policy-mapper = [
     "asago-policy-mapper-examples",
+]
+scenario-generator = [
+    "asago-scenario-generator-examples",
 ]
 
 [tool.uv.workspace]
@@ -16,3 +19,4 @@ members = ["asago-*"]
 
 [tool.uv.sources]
 asago-policy-mapper-examples = { workspace = true }
+asago-scenario-generator-examples = { workspace = true }

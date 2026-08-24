@@ -8,6 +8,7 @@ Example notebooks and datasets for [Asago](https://github.com/asago-ai) projects
 |--------|-------------|---------------|
 | [`asago-policy-mapper/`](./asago-policy-mapper/) | Risk extraction from policy documents | `policy-mapper` |
 | [`asago-scenario-generator/`](./asago-scenario-generator/) | Adversarial scenario generation (taxonomy/risk and STPA) | `scenario-generator` |
+| [`asago-artifact-generator/`](./asago-artifact-generator/) | Garak probe artifacts from scenario YAMLs | `artifact-generator` |
 
 ## Quickstart
 

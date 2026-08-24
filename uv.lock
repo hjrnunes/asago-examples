@@ -7,7 +7,7 @@ resolution-markers = [
 ]
 
 [options]
-exclude-newer = "2026-08-17T19:39:05.083109Z"
+exclude-newer = "2026-08-17T20:30:41.913946Z"
 exclude-newer-span = "P7D"
 
 [manifest]
@@ -347,7 +347,7 @@ requires-dist = [
 [[package]]
 name = "asago-scenario-generator"
 version = "0.1.0"
-source = { git = "https://github.com/asago-ai/asago-scenario-generator#d2d5cce3818df27dcd18ea7ccec2b4d8664db0a2" }
+source = { git = "https://github.com/asago-ai/asago-scenario-generator#847d705da46ce4f7aea994cce7c13afa792df0f6" }
 dependencies = [
     { name = "jinja2" },
     { name = "jsonschema" },
